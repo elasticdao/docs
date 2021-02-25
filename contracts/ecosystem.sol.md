@@ -47,6 +47,12 @@ Translates the data from the key-value pairs to a struct
 function deserialize(address _daoAddress) external view returns (Instance memory record) {...}
 ```
 
+#### parameters
+
+```text
+@param _daoAddress - address of the unique user ID
+```
+
 ### exists
 
 Checks if the address already exists in the DAO \(externally\)
@@ -55,12 +61,24 @@ Checks if the address already exists in the DAO \(externally\)
 function exists(address _daoAddress) external view returns (bool recordExists) {...}
 ```
 
+#### parameters
+
+```text
+@param _daoAddress - address of the unique user ID
+```
+
 ### serialize
 
 Translates the data from the concerned struct to key-value pairs
 
 ```text
 function serialize(Instance memory _record) external preventReentry {...}
+```
+
+#### parameters
+
+```text
+@param _record Instance
 ```
 
 ### \_exists

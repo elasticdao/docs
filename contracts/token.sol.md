@@ -86,12 +86,24 @@ Translates the data from the key-value pairs to a struct
 function deserialize(address _uuid, Ecosystem.Instance memory _ecosystem) external view returns (Instance memory record) {...}
 ```
 
+#### parameters
+
+```text
+@param _uuid - address of the unique user ID
+```
+
 ### exists
 
 Checks if the address already exists in the DAO \(externally\)
 
 ```text
 function exists(address _uuid, Ecosystem.Instance memory) external view returns (bool)
+```
+
+#### parameters
+
+```text
+@param _uuid - address of the unique user ID
 ```
 
 ### serialize
@@ -102,12 +114,24 @@ Translates the data from the concerned struct to key-value pairs
 function serialize(Instance memory _record) external preventReentry {...}
 ```
 
+#### parameters
+
+```text
+@param _record - Instance
+```
+
 ### UpdateNumberOfTokenHolders
 
 Updates the number of token holders
 
 ```text
 function updateNumberOfTokenHolders(Instance memory _record, uint256 numberOfTokenHolders)
+```
+
+#### parameters
+
+```text
+@param _record - Instance
 ```
 
 ### \_exists

@@ -49,12 +49,24 @@ Translates the data from the key-value pairs to a struct
 function deserialize(address _uuid, Ecosystem.Instance memory _ecosystem) external view returns (Instance memory record) {...}
 ```
 
+#### parameters
+
+```text
+@param _uuid - address of the unique user ID
+```
+
 ### exists
 
 Checks if the address already exists in the DAO \(externally\)
 
 ```text
 function exists(address _uuid, Ecosystem.Instance memory) external view returns (bool) {...}
+```
+
+#### parameters
+
+```text
+@param _uuid - address of the unique user ID
 ```
 
 ### getSummoner
@@ -65,12 +77,26 @@ Checks the index number of the summoner
 function getSummoner(Instance memory _dao, uint256 _index) external view returns (address) {...}
 ```
 
+#### parameters
+
+```text
+@param _dao - DAO.Instance
+@param _index - index of the summoner
+```
+
 ### isSummoner
 
 Checks if the msg.sender is a summoner
 
 ```text
 function isSummoner(Instance memory _dao, address _summonerAddress) external view returns (bool) {...}
+```
+
+#### parameters
+
+```text
+@param _dao DAO.Instance
+@param _summonerAddress address
 ```
 
 ### serialize
