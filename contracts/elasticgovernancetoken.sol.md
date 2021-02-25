@@ -8,52 +8,6 @@ The **ElasticGovernanceToken** contract  is an implementation of our **IElasticT
 
 Bootstrapped and Community-owned since day1
 
-
-
-## The token model
-
-The **Token** contract is used for storing token data.
-
-The **Token** contract inheirits the **EternalModel**  contract. The **EternalModel**  contract is an implementation of the [Eternal Storage](https://fravoll.github.io/solidity-patterns/eternal_storage.html) pattern.
-
-The **Token** contract consists of a struct of parameters that can be set while deploying the DAO
-
-```text
-struct Instance {
-    address uuid;
-    string name;
-    string symbol; 
-    uint256 eByL;
-    uint256 elasticity;
-    uint256 k;
-    uint256 lambda;
-    uint256 m;
-    uint256 maxLambdaPurchase;
-    uint256 numberOfTokenHolders;
-    Ecosystem.Instance ecosystem;
-  }
-```
-
-* uuid - the unique address of the Token
-* name - The name of the Token
-* symbol - The symbol of the Token
-* counter - 
-* eByL - During seeding phase, eByL is the value which determines how much shares or lambda\(λ\) a summoner gets. 
-
-$$
-eByL = e/λ
-$$
-
-{% hint style="info" %}
-Eg: If eByL = 0.1, and one of the summoners decides to seed the DAO with 2 eth.
-
-Then  the shares that summoner recieves is given by :
-
-λ = \( 2 \) / \( 0.1 \) = 20. 
-{% endhint %}
-
-* elasticity - 
-
 ## Functionality
 
 
