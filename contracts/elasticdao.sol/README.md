@@ -249,3 +249,51 @@ function join(uint256 _deltaLambda)
 * The correct value of ETH, calculated via deltaE\(link\), must be sent with the transaction
 * The token contract should be successfully be able to mint  `_deltaLambda`
 
+### penalize
+
+Penalizes `_addresses` with `_amounts` respectively.
+
+```text
+function penalize(address[] memory _addresses, uint256[] memory _amounts)
+  external
+  onlyController
+  preventReentry
+{ ... }
+```
+
+#### parameters
+
+```text
+@param _addresses - an array of addresses
+@param _amounts - an array containing the amounts each address has to be penalized respectively
+```
+
+#### requirements
+
+* Each address must have a corresponding amount to be penalized with.
+
+### reward
+
+Rewards `_addresses` with `_amounts` respectively.
+
+```text
+function reward(address[] memory _addresses, uint256[] memory _amounts)
+  external
+  onlyController
+  preventReentry
+{ ... }
+```
+
+#### parameters
+
+```text
+@param _addresses - an array of addresses
+@param _amounts - an array containing the amounts each address has to be rewarded respectively
+```
+
+#### requirements
+
+* Each address must have a corresponding amount to be rewarded with.
+
+
+
