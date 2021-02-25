@@ -99,5 +99,33 @@ Emitted after a successful call to `summon`.
 event SummonedDAO(address indexed daoAddress, address indexed summonedBy);
 ```
 
+## Modifiers
 
+### onlyAfterSummoning
+
+If the DAO has not yet been summoned, reverts the transaction with the message `ElasticDAO: DAO must be summoned`.
+
+### onlyAfterTokenInitialized
+
+Checks to make sure that an ElasticGovernanceToken has been created and initialized. If not, the transaction is reverted with the message `ElasticDAO: Please call initializeToken first`.
+
+### onlyBeforeSummoning
+
+If the DAO has been summoned, reverts the transaction with the message `ElasticDAO: DAO must not be summoned`.
+
+### onlyController
+
+Ensures that `msg.sender` is the controller address. If not, reverts the with the message `ElasticDAO: Only controller`.
+
+### onlyDeployer
+
+Ensures that `msg.sender` is the same address which called `initialize`. If not, the transaction is reverted with the message `ElasticDAO: Only deployer`.
+
+### onlySummoners
+
+Ensures that `msg.sender` is one of the summoner addresses passed when `initialize` was called. If not, reverts with the message `ElasticDAO: Only summoners`.
+
+### onlyWhenOpen
+
+Ensures that the DAO has some balance of ETH in it's vault. If not, reverts with the message `ElasticDAO: This DAO is closed`.
 
