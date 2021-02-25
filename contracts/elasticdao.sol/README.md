@@ -162,3 +162,90 @@ function initialize(
 * The DAO must have atleast one summoner to summon the DAO
 * The configurator should be able to successfully build the DAO
 
+### initializeToken
+
+Initializes the DAO's [ElasticGovernanceToken](https://docs.elasticdao.org/contracts/elasticgovernancetoken.sol), using the [Configurator](https://docs.elasticdao.org/contracts/elasticdao.sol/configurator.sol) contract.
+
+Emits the [ElasticGovernanceTokenDeployed](https://docs.elasticdao.org/contracts/elasticdao.sol#elasticgovernancetokendeployed) event.
+
+```text
+function initializeToken(
+  string memory _name,
+  string memory _symbol,
+  uint256 _eByL,
+  uint256 _elasticity,
+  uint256 _k,
+  uint256 _maxLambdaPurchase
+) external onlyBeforeSummoning onlyDeployer preventReentry { ... }
+```
+
+#### parameters
+
+```text
+@param _name - name of the token
+@param _symbol - symbol of the token
+@param _eByL -the amount of lambda a summoner gets(per ETH) during the seeding phase of the DAO
+@param _elasticity the value by which the cost of entering the  DAO increases ( on every join )
+@param _k - is the constant token multiplier
+  it increases the number of tokens that each member of the DAO has with respect to their lambda
+@param _maxLambdaPurchase - is the maximum amount of lambda that can be purchased per wallet
+```
+
+#### requirements
+
+* Only the deployer of the DAO can initialize the Token
+* The controller of the DAO should successfully be set as the burner of the tokens of the DAO
+* The controller of the DAO should successfully be set as the minter of the tokens of the DAO
+
+### exit
+
+Allows a member to exit for their underlying ETH. The amount of EGT burned is expressed in it's lambda form as `_deltaLambda`.
+
+```text
+function exit(uint256 _deltaLambda) external onlyAfterSummoning preventReentry { ... }
+```
+
+#### formula
+
+$$
+ΔΛ / Λ * Ε
+$$
+
+#### parameters
+
+```text
+@param _deltaLambda - the amount of lambda the address exits with
+```
+
+#### requirements
+
+* ETH transfer must be successful
+
+### join
+
+Allows a prospective or current member to join the DAO by minting lambda with ETH. An exact amount of ETH is necessary to successfully mint. Documentation and further math regarding `capitalDelta`, `deltaE`, and `mDash` can be found at [ElasticMath.sol](https://docs.elasticdao.org/contracts/elasticmath.sol).
+
+Emits the [JoinDAO](https://docs.elasticdao.org/contracts/elasticdao.sol#joindao) event.
+
+```text
+function join(uint256 _deltaLambda)
+  external
+  payable
+  onlyAfterSummoning
+  onlyWhenOpen
+  preventReentry
+{ ... }
+```
+
+#### parameters
+
+```text
+@param _deltaLambda - the amount of lambda minted to the address
+```
+
+#### requirements
+
+* The amount of shares being purchased has to be lower than [maxLambdaPurchase](https://docs.elasticdao.org/contracts/elasticdao.sol#parameters)
+* The correct value of ETH, calculated via deltaE\(link\), must be sent with the transaction
+* The token contract should be successfully be able to mint  `_deltaLambda`
+
