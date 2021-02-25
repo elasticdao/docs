@@ -26,14 +26,14 @@ The ElasticDAO contract outlines and defines all of the core functionality for a
 
 ### List of Functions
 
-* initialize
-* initializeToken
-* exit
-* join
-* penalize
-* reward
-* setController
-* setMaxVotingLambda
+* [initialize](https://docs.elasticdao.org/contracts/elasticdao.sol#initialize)
+* [initializeToken](https://docs.elasticdao.org/contracts/elasticdao.sol#initializetoken)
+* [exit](https://docs.elasticdao.org/contracts/elasticdao.sol#exit)
+* [join](https://docs.elasticdao.org/contracts/elasticdao.sol#join)
+* [penalize](https://docs.elasticdao.org/contracts/elasticdao.sol#penalize)
+* [reward](https://docs.elasticdao.org/contracts/elasticdao.sol#reward)
+* [setController](https://docs.elasticdao.org/contracts/elasticdao.sol#setcontroller)
+* [setMaxVotingLambda](https://docs.elasticdao.org/contracts/elasticdao.sol#setmaxvotinglambda)
 * seedSummoning
 * summon
 * getDAO
