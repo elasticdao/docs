@@ -6,9 +6,9 @@ This contract is used to assist in the configuring of ElasticDAO contracts. It's
 
 ### List of Functions
 
-* buildDAO
-* buildEcosystem
-* buildToken
+* [buildDAO](https://docs.elasticdao.org/contracts/elasticdao.sol/configurator.sol#builddao)
+* [buildEcosystem](https://docs.elasticdao.org/contracts/elasticdao.sol/configurator.sol#buildecosystem)
+* [buildToken](https://docs.elasticdao.org/contracts/elasticdao.sol/configurator.sol#buildtoken)
 
 ## Functions
 
