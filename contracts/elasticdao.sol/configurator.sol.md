@@ -52,3 +52,34 @@ function buildEcosystem(address _controller, Ecosystem.Instance memory _defaults
 @param _defaults instance of Ecosystem with the implementation addresses
 ```
 
+### buildToken
+
+Creates a [Token](https://docs.elasticdao.org/contracts/token.sol).Instance record and initializes the [ElasticGovernanceToken](https://docs.elasticdao.org/contracts/elasticgovernancetoken.sol). Returns the [Token](https://docs.elasticdao.org/contracts/token.sol).Instance created when successful.
+
+```text
+function buildToken(
+  address _controller,
+  string memory _name,
+  string memory _symbol,
+  uint256 _eByL,
+  uint256 _elasticity,
+  uint256 _k,
+  uint256 _maxLambdaPurchase,
+  Ecosystem.Instance memory _ecosystem
+) external returns (Token.Instance memory token) { ... }
+```
+
+#### parameters
+
+```text
+@param _controller the address which can control the core DAO functions
+@param _name name of the token
+@param _symbol symbol of the token
+@param _eByL initial ETH/token ratio
+@param _elasticity the percentage by which capitalDelta should increase
+@param _k a constant, initially set by the DAO
+@param _maxLambdaPurchase maximum amount of lambda (shares) that can be
+  minted on each call to the join function in ElasticDAO.sol
+@param _ecosystem the DAO's ecosystem instance
+```
+
