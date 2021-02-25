@@ -34,10 +34,8 @@ The ElasticDAO contract outlines and defines all of the core functionality for a
 * [reward](https://docs.elasticdao.org/contracts/elasticdao.sol#reward)
 * [setController](https://docs.elasticdao.org/contracts/elasticdao.sol#setcontroller)
 * [setMaxVotingLambda](https://docs.elasticdao.org/contracts/elasticdao.sol#setmaxvotinglambda)
-* seedSummoning
-* summon
-* getDAO
-* getEcosystem
+* [seedSummoning](https://docs.elasticdao.org/contracts/elasticdao.sol#seedsummoning)
+* [summon](https://docs.elasticdao.org/contracts/elasticdao.sol#summon)
 
 ## Events
 
