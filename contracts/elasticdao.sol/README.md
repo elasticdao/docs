@@ -129,3 +129,26 @@ Ensures that `msg.sender` is one of the summoner addresses passed when `initiali
 
 Ensures that the DAO has some balance of ETH in it's vault. If not, reverts with the message `ElasticDAO: This DAO is closed`.
 
+## Functions
+
+### initialize
+
+Initializes and builds the ElasticDAO struct by passing and initializing all the required parameters into the [Configurator](https://docs.elasticdao.org/contracts/elasticdao.sol/configurator.sol) contract.
+
+#### parameters
+
+```text
+* @param _ecosystemModelAddress - the address of the ecosystem model
+* @param _controller the address which can control the core DAO functions
+* @param _summoners - an array containing the addresses of the summoners
+* @param _name - the name of the DAO
+* @param _maxVotingLambda - the maximum amount of lambda that can be used to vote in the DAO
+```
+
+#### requirements
+
+* The DAO cannot already be initialized
+* The ecosystem model address cannot be the zero address
+* The DAO must have atleast one summoner to summon the DAO
+* The configurator should be able to successfully build the DAO
+
