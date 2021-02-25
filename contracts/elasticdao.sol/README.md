@@ -135,6 +135,16 @@ Ensures that the DAO has some balance of ETH in it's vault. If not, reverts with
 
 Initializes and builds the ElasticDAO struct by passing and initializing all the required parameters into the [Configurator](https://docs.elasticdao.org/contracts/elasticdao.sol/configurator.sol) contract.
 
+```text
+function initialize(
+  address _ecosystemModelAddress,
+  address _controller,
+  address[] memory _summoners,
+  string memory _name,
+  uint256 _maxVotingLambda
+) external preventReentry { ... }
+```
+
 #### parameters
 
 ```text
