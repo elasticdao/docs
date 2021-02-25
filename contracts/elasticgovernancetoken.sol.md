@@ -1,6 +1,6 @@
 # ElasticGovernanceToken.sol
 
-The amount of ethereum backing each EGT decreases. More EGT are minted and get liquidated for their underlying ethereum value.
+The amount of ETH backing each EGT decreases. More EGT are minted and get liquidated for their underlying ethereum value.
 
 ## ERC-20
 
