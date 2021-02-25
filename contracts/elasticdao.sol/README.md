@@ -83,6 +83,14 @@ event JoinDAO(
 );
 ```
 
+### MaxVotingLambdaChanged
+
+Emitted after a successful call to `setMaxVotingLambda`.
+
+```text
+event MaxVotingLambdaChanged(address indexed daoAddress, bytes32 settingName, uint256 value);event MaxVotingLambdaChanged(address indexed daoAddress, bytes32 settingName, uint256 value);
+```
+
 ### SeedDAO
 
 Emitted after a successful call to `seedSummoning`.
@@ -194,8 +202,6 @@ function initializeToken(
 #### requirements
 
 * Only the deployer of the DAO can initialize the Token
-* The controller of the DAO should successfully be set as the burner of the tokens of the DAO
-* The controller of the DAO should successfully be set as the minter of the tokens of the DAO
 
 ### exit
 
@@ -295,5 +301,41 @@ function reward(address[] memory _addresses, uint256[] memory _amounts)
 
 * Each address must have a corresponding amount to be rewarded with.
 
+### setController
 
+Sets the controller of the DAO. The controller of the DAO handles various responsibilities of the DAO, such as burning and minting tokens on behalf of the DAO.
+
+Emits the [ControllerChanged](https://docs.elasticdao.org/contracts/elasticdao.sol#controllerchanged) event.
+
+```text
+function setController(address _controller) external onlyController preventReentry { ... }
+```
+
+#### parameters
+
+```text
+@param _controller - the new address of the controller of the DAO
+```
+
+#### requirements
+
+* The controller must not be the 0 address
+* The controller of the DAO should successfully be set as the burner of the tokens of the DAO
+* The controller of the DAO should successfully be set as the minter of the tokens of the DAO
+
+### setMaxVotingLambda
+
+Sets the maxVotingLambda value for the DAO, which determines the maximum voting capability of a single wallet.
+
+Emits the MaxVotingLambdaChanged event.
+
+```text
+function setMaxVotingLambda(uint256 _maxVotingLambda) external onlyController preventReentry { ... }
+```
+
+#### parameters
+
+```text
+@param _maxVotingLambda - the value of the maximum amount of lambda that can be used for voting
+```
 
