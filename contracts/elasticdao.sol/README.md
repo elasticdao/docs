@@ -6,23 +6,23 @@ The ElasticDAO contract outlines and defines all of the core functionality for a
 
 ### List of Events
 
-* ControllerChanged
-* ElasticGovernanceTokenDeployed
-* ExitDAO
-* JoinDAO
-* MaxVotingLambdaChanged
-* SeedDAO
-* SummonedDAO
+* [ControllerChanged](https://docs.elasticdao.org/contracts/elasticdao.sol#controllerchanged)
+* [ElasticGovernanceTokenDeployed](https://docs.elasticdao.org/contracts/elasticdao.sol#elasticgovernancetokendeployed)
+* [ExitDAO](https://docs.elasticdao.org/contracts/elasticdao.sol#exitdao)
+* [JoinDAO](https://docs.elasticdao.org/contracts/elasticdao.sol#joindao)
+* [MaxVotingLambdaChanged](https://docs.elasticdao.org/contracts/elasticdao.sol#maxvotinglambdachanged)
+* [SeedDAO](https://docs.elasticdao.org/contracts/elasticdao.sol#seeddao)
+* [SummonedDAO](https://docs.elasticdao.org/contracts/elasticdao.sol#summoneddao)
 
 ### List of Modifiers
 
-* onlyAfterSummoning
-* onlyAfterTokenInitialized
-* onlyBeforeSummoning
-* onlyController
-* onlyDeployer
-* onlySummoners
-* onlyWhenOpen
+* [onlyAfterSummoning](https://docs.elasticdao.org/contracts/elasticdao.sol#onlyaftersummoning)
+* [onlyAfterTokenInitialized](https://docs.elasticdao.org/contracts/elasticdao.sol#onlyaftertokeninitialized)
+* [onlyBeforeSummoning](https://docs.elasticdao.org/contracts/elasticdao.sol#onlybeforesummoning)
+* [onlyController](https://docs.elasticdao.org/contracts/elasticdao.sol#onlycontroller)
+* [onlyDeployer](https://docs.elasticdao.org/contracts/elasticdao.sol#onlydeployer)
+* [onlySummoners](https://docs.elasticdao.org/contracts/elasticdao.sol#onlysummoners)
+* [onlyWhenOpen](https://docs.elasticdao.org/contracts/elasticdao.sol#onlywhenopen)
 
 ### List of Functions
 
@@ -327,7 +327,7 @@ function setController(address _controller) external onlyController preventReent
 
 Sets the maxVotingLambda value for the DAO, which determines the maximum voting capability of a single wallet.
 
-Emits the MaxVotingLambdaChanged event.
+Emits the [MaxVotingLambdaChanged](https://docs.elasticdao.org/contracts/elasticdao.sol#maxvotinglambdachanged) event.
 
 ```text
 function setMaxVotingLambda(uint256 _maxVotingLambda) external onlyController preventReentry { ... }
