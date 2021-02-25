@@ -339,3 +339,46 @@ function setMaxVotingLambda(uint256 _maxVotingLambda) external onlyController pr
 @param _maxVotingLambda - the value of the maximum amount of lambda that can be used for voting
 ```
 
+### seedSummoning
+
+Seeds the DAO. Allows a summoner to transfer ETH in return for lambda at a fixed rate prior to the DAO being summoned.
+
+Emits the [SeedDAO](https://docs.elasticdao.org/contracts/elasticdao.sol#seeddao) event.
+
+```text
+function seedSummoning()
+  external
+  payable
+  onlyBeforeSummoning
+  onlySummoners
+  onlyAfterTokenInitialized
+  preventReentry
+{ ... }
+```
+
+#### formula
+
+$$
+ΔΛ = Ε/eByL
+$$
+
+### summon
+
+Summons the DAO resulting in each summoner receiving `_deltaLambda`. Opens the DAO to any wallet, allowing for joining and exiting of the DAO.
+
+Emits the [SummonedDAO](https://docs.elasticdao.org/contracts/elasticdao.sol#summoneddao) event.
+
+```text
+function summon(uint256 _deltaLambda) external onlyBeforeSummoning onlySummoners preventReentry { ... }
+```
+
+#### parameters
+
+```text
+@param _deltaLambda - the amount of lambda each summoner address receives
+```
+
+#### requirements
+
+* The DAO must be seeded with ETH during the seeding phase
+
