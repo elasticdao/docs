@@ -60,7 +60,7 @@ struct Instance {
 * name - The name of the Token
 * symbol - The symbol of the Token
 * counter - 
-* eByL - During seeding phase, eByL is the value which determines how much shares or lambda\(λ\) a summoner gets. 
+* eByL - During the seeding phase, eByL is the value which determines how much shares or lambda\(λ\) a summoner gets. 
 
 
 
