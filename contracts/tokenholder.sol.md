@@ -26,14 +26,22 @@ struct Instance {
 
 ### List of events:
 
-* Serialized
+* [Serialized](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/tokenholder.sol#serialize)
 
 ### List of functions:
 
-* deserialize
-* exists
-* serialize
-* \_exists
+* [deserialize](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/tokenholder.sol#deserialize)
+* [exists](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/tokenholder.sol#exists)
+* [serialize](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/tokenholder.sol#serialize)
+* [\_exists](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/tokenholder.sol#_exists)
+
+## Events
+
+### Serialize
+
+```text
+  event Serialized(address indexed account, address indexed token);
+```
 
 ## Functions
 

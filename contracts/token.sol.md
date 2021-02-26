@@ -64,19 +64,27 @@ struct Instance {
 
 
 
-### List of events:
+## List of events:
 
-* Serialized
+* [Serialized](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/token.sol#serialized)
 
-### List of functions:
+## List of functions:
 
-* deserialize
-* exists
-* serialize
-* updateNumberOfTokenHolders
-* \_exists
+* [deserialize](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/token.sol#deserialize)
+* [exists](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/token.sol#exists)
+* [serialize](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/token.sol#serialize)
+* [updateNumberOfTokenHolders](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/token.sol#updatenumberoftokenholders)
+* [\_exists](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/token.sol#_exists)
 
-### Functions
+## Events
+
+### Serialized
+
+```text
+event Serialized(address indexed uuid);
+```
+
+## Functions
 
 ### deserialize
 

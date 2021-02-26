@@ -8,14 +8,14 @@ Provides functions for performing ElasticDAO specific math.
 
 ### List of functions:
 
-* capitalDelta
-* deltaE
-* lambdaFromT
-* mDash
-* revamp
-* t
-* wmul
-* wdiv
+* [capitalDelta](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/elasticmath.sol#capitaldelta)
+* [deltaE](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/elasticmath.sol#deltae)
+* [lambdaFromT](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/elasticmath.sol#lambdafromt)
+* [mDash](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/elasticmath.sol#mdash)
+* [revamp](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/elasticmath.sol#revamp)
+* [t](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/elasticmath.sol#t)
+* [wmul](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/elasticmath.sol#wmul)
+* [wdiv](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/elasticmath.sol#wdiv)
 
 
 

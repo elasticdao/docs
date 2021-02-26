@@ -14,43 +14,43 @@ Bootstrapped and Community-owned since day1
 
 ### List of events:
 
-* Approval
-* Transfer
+* [Approval](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/elasticgovernancetoken.sol#approval)
+* [Transfer](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/elasticgovernancetoken.sol#transfer)
 
 ### List of functions:
 
-* allowance
-* approve
-* balanceOf
-* balanceOfInShares
-* balanceOfAt
-* balanceOfInSharesAt
-* burn
-* burnShares
-* decimals
-* decreaseAllowance
-* increaseAllowance
-* mint
-* mintShares
-* name
-* numberOfTokenHolders
-* symbol
-* totalSupply
-* totalSupplyInShares
-* transfer
-* transferFrom
+* [allowance](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/elasticgovernancetoken.sol#allowance)
+* [approve](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/elasticgovernancetoken.sol#approve)
+* [balanceOf](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/elasticgovernancetoken.sol#balanceof)
+* [balanceOfInShares](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/elasticgovernancetoken.sol#balanceofinshares)
+* [balanceOfAt](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/elasticgovernancetoken.sol#balanceofat)
+* [balanceOfInSharesAt](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/elasticgovernancetoken.sol#balanceofinsharesat)
+* [burn](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/elasticgovernancetoken.sol#burn)
+* [burnShares](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/elasticgovernancetoken.sol#burnshares)
+* [decimals](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/elasticgovernancetoken.sol#decimals)
+* [decreaseAllowance](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/elasticgovernancetoken.sol#decreaseallowance)
+* [increaseAllowance](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/elasticgovernancetoken.sol#increaseallowance)
+* [mint](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/elasticgovernancetoken.sol#mint)
+* [mintShares](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/elasticgovernancetoken.sol#mintshares)
+* [name](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/elasticgovernancetoken.sol#name)
+* [numberOfTokenHolders](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/elasticgovernancetoken.sol#numberoftokenholders)
+* [symbol](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/elasticgovernancetoken.sol#symbol)
+* [totalSupply](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/elasticgovernancetoken.sol#totalsupply)
+* [totalSupplyInShares](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/elasticgovernancetoken.sol#totalsupplyshares)
+* [transfer](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/elasticgovernancetoken.sol#transfer)
+* [transferFrom](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/elasticgovernancetoken.sol#transferfrom)
 
 ### List of modifiers:
 
-* onlyDAO
+* [onlyDAO](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/elasticgovernancetoken.sol#onlydao)
 
 
 
- **if a function refrences another function, event or modifier- link it, have a list of all the functions, events and modifiers and link it\)**
+**If a function refrances another function, event or modifier - link it, have a list of all the functions, events and modifiers and link it\)**
 
-### Events
+## Events
 
-#### Approval
+### Approval
 
 Emitted when the allowance of a  `_spender` for  `_owner` is set by a call to **approve,**
 
@@ -60,7 +60,7 @@ Emitted when the allowance of a  `_spender` for  `_owner` is set by a call to **
 event Approval(address indexed _owner, address indexed _spender, uint256 _amount);
 ```
 
-#### Transfer
+### Transfer
 
 Emitted when  `_amount` tokens are moved from the  `_from` account `_to` account
 
@@ -70,9 +70,9 @@ event Transfer(address indexed _from, address indexed _to, uint256 _amount);
 
 ### 
 
-### Functions
+## Functions
 
-#### allowance
+### allowance
 
 Returns the remaining number of tokens that  `_spender`  will be allowed to spend on behalf of`_owner`through **transferFrom**. This is zero by default.
 
@@ -80,7 +80,7 @@ Returns the remaining number of tokens that  `_spender`  will be allowed to spen
 function allowance(address _owner, address _spender) external override view returns (uint256)
 ```
 
-#### **approve**
+### **approve**
 
 Sets  `_amount` as the allowance of  `_spender` over the caller's tokens.
 
@@ -88,7 +88,7 @@ Sets  `_amount` as the allowance of  `_spender` over the caller's tokens.
 function approve(address _spender, uint256 _amount) extrenal override returns (bool)
 ```
 
-#### **balanceOf**
+### **balanceOf**
 
 Returns the amount of tokens owned by`_account`.
 
@@ -96,7 +96,7 @@ Returns the amount of tokens owned by`_account`.
 function balanceOf(address _account) external override view returns (uint256)
 ```
 
-#### **balanceOfInShares**
+### **balanceOfInShares**
 
 Returns the amount of shares owned by`_account`.
 
@@ -104,7 +104,7 @@ Returns the amount of shares owned by`_account`.
 function balanceOfInShares(address _account) external override view returns (uint256 lambda)
 ```
 
-#### **balanceOfAt**
+### **balanceOfAt**
 
 Returns the amount of tokens owned by  `_account` at the specific `_blockNumber`
 
@@ -112,7 +112,7 @@ Returns the amount of tokens owned by  `_account` at the specific `_blockNumber`
 function balanceOfAt(address _account, uint256 _blockNumber)
 ```
 
-#### **balanceOfInSharesAt**
+### **balanceOfInSharesAt**
 
 Returns the amount of shares owned by  `_account` at `_blockNumber`.
 
@@ -120,7 +120,7 @@ Returns the amount of shares owned by  `_account` at `_blockNumber`.
 function balanceOfInSharesAt(address _account, uint256 _blockNumber)
 ```
 
-#### **burn**
+### **burn**
 
 Reduces the balance\(tokens\) of  `_account` by  `_amount`
 
@@ -128,7 +128,7 @@ Reduces the balance\(tokens\) of  `_account` by  `_amount`
 function burn(address _account, uint256 _amount) external override onlyDAO returns (bool)
 ```
 
-**burnShares**
+### **burnShares**
 
 Reduces the balance\(shares\) of  `_account` by  `_amount`
 
@@ -136,7 +136,7 @@ Reduces the balance\(shares\) of  `_account` by  `_amount`
 function burnShares(address _account, uint256 _amount) external override onlyDAO returns (bool)
 ```
 
-#### **decimals**
+### **decimals**
 
 Returns the number of decimals the token uses - e.g. `18`, means to divide the token amount by `1000000000000000000` to get its user representation.
 
@@ -144,7 +144,7 @@ Returns the number of decimals the token uses - e.g. `18`, means to divide the t
 function decimals() public view returns (uint256)
 ```
 
-#### **decreaseAllowance**
+### **decreaseAllowance**
 
 Decreases the allowance of `_spender` by  `_subtractedValue`
 
@@ -152,7 +152,7 @@ Decreases the allowance of `_spender` by  `_subtractedValue`
 function decreaseAllowance(address _spender, uint256 _subtractedValue) external returns (bool)
 ```
 
-#### **increaseAllowance**
+### **increaseAllowance**
 
 Increases the allowance of `_spender` by  `_addedValue`
 
@@ -162,7 +162,7 @@ function increaseAllowance(address _spender, uint256 _addedValue) external retur
 
 \*\*\*\*
 
-#### **mint**
+### **mint**
 
 Mints  `_amount` tokens for  \_account.  Note the **onlyDAO** modifier.
 
@@ -170,7 +170,7 @@ Mints  `_amount` tokens for  \_account.  Note the **onlyDAO** modifier.
 function mint(address _account, uint256 _amount) external onlyDAO returns (bool)
 ```
 
-#### **mintShares**
+### **mintShares**
 
 Mints  `_amount` of shares for  `_account`
 
@@ -178,7 +178,7 @@ Mints  `_amount` of shares for  `_account`
 function mintShares(address _account, uint256 _amount) external override returns (bool)
 ```
 
-#### **name**
+### **name**
 
 Returns the name of the token - e.g. `Elastic Governance Token`
 
@@ -186,7 +186,7 @@ Returns the name of the token - e.g. `Elastic Governance Token`
 function name() public view returns (string memory)
 ```
 
-#### **numberOfTokenHolders**
+### **numberOfTokenHolders**
 
 Returns the number of token holders currently
 
@@ -194,7 +194,7 @@ Returns the number of token holders currently
 function numberOfTokenHolders() external override view returns (uint256)
 ```
 
-#### **symbol**
+### **symbol**
 
 Returns the symbol of the token. E.g. `EGT`
 
@@ -202,7 +202,7 @@ Returns the symbol of the token. E.g. `EGT`
 function symbol() external view returns (string memory)
 ```
 
-#### **totalSupply**
+### **totalSupply**
 
 Returns the total supply of the tokens in the DAO. Given by the equation:
 
@@ -221,7 +221,7 @@ function totalSupply() external override view returns (uint256)
 
 \*\*\*\*
 
-#### **totalSupplyInShares**
+### **totalSupplyInShares**
 
 Returns the total supply of the shares\( λ \) in the DAO.
 
@@ -229,7 +229,7 @@ Returns the total supply of the shares\( λ \) in the DAO.
 function totalSupplyInShares() external override view returns (uint256)
 ```
 
-####  **transfer**
+###  **transfer**
 
 Moves `_amount` tokens from the caller's account to  `_to` address using the allowance mechanism. `_amount` is then deducted from the caller's allowance. 
 
@@ -239,7 +239,7 @@ Returns a boolean value indicating whether the operation succeeded. Emits a **Tr
 function transfer(address _to, uint256 _amount) external override returns (bool)
 ```
 
-#### **transferFrom**
+### **transferFrom**
 
 Moves `_amount` tokens from the `_from` address  to  `_to` address using the allowance mechanism. `_amount` is then deducted from the caller's allowance. 
 
@@ -255,9 +255,9 @@ function transferFrom(
 
  ****
 
-### **Modifiers**
+## **Modifiers**
 
-#### onlyDAO
+### onlyDAO
 
 To ensure only the DAO address can call functions on which this modifer is applied upon.
 

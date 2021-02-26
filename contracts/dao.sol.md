@@ -24,22 +24,28 @@ struct Instance {
 
 ## Functionality
 
-
-
 ### List of events:
 
-* Serialized
+* [Serialized](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/dao.sol#serialized)
 
 ### List of functions:
 
-* deserialize
-* exists
-* getSummoner
-* isSummoner
-* serialize
-* \_exists
+* [deserialize](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/dao.sol#deserialize)
+* [exists](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/dao.sol#exists)
+* [getSummoner](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/dao.sol#getsummoner)
+* [isSummoner](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/dao.sol#issummoner)
+* [serialize](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/dao.sol#serialize)
+* [\_exists](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/dao.sol#_exists)
 
-### Functions
+## Events
+
+### Serialized
+
+```text
+event Serialized(address indexed uuid);
+```
+
+## Functions
 
 ### deserialize
 

@@ -28,14 +28,22 @@ struct Instance {
 
 ### List of events:
 
-* Serialized
+* [Serialized](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/ecosystem.sol#serialized)
 
 ### List of functions:
 
-* deserialize
-* exists
-* serialize
-* \_exists
+* [deserialize](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/ecosystem.sol#derialize)
+* [exists](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/ecosystem.sol#exists)
+* [serialize](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/ecosystem.sol#serialize)
+* [\_exists](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/ecosystem.sol#_exists)
+
+## Events
+
+### Serialized
+
+```text
+event Serialized(address indexed _daoAddress);
+```
 
 ## Functions
 
