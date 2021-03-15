@@ -140,6 +140,8 @@ The creation of a DAO.
 ## ERC-20 
 
 ERC-20 tokens are blockchain-based assets that have value and are transferable. The primary difference is that instead of running on their own blockchain, ERC-20 tokens are issued on the Ethereum network.
+
+## Multisig
 {% endtab %}
 {% endtabs %}
 
