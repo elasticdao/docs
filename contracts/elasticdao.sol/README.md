@@ -249,9 +249,9 @@ function join(uint256 _deltaLambda)
 
 #### requirements
 
-* The amount of shares being purchased has to be lower than [maxLambdaPurchase](https://docs.elasticdao.org/contracts/elasticdao.sol#parameters)
+* The amount of lambdas being purchased has to be lower than [maxLambdaPurchase](https://docs.elasticdao.org/contracts/elasticdao.sol#parameters)
 * The correct value of ETH, calculated via deltaE\(link\), must be sent with the transaction
-* The token contract should be successfully be able to mint  `_deltaLambda`
+* The token contract should successfully be able to mint  `_deltaLambda`
 
 ### penalize
 

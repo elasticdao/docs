@@ -86,8 +86,8 @@ $$
 * k - Token multiplier
 * λ' - The amount of lambda after the rebase.  
 * λ - The amount of Lambda before the rebase.
-* m' - The value of the share modifier after the rebase.
-* m - The value of the share modifier before the rebase.
+* m' - The value of the Lambda modifier after the rebase.
+* m - The value of the Lambda modifier before the rebase.
 * elasticity - Increase in the price of each EGT. \( Initially set by the DAO \)
 
  ‌

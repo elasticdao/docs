@@ -17,7 +17,7 @@ struct Instance {
 ```
 
 * daoAddress - is an address of unique user ID
-* daoModelAddress - 
+* daoModelAddress -  is an address of the DAO model
 * ecosystemModelAddress - is an address of the ecosystem model
 * tokenHolderModelAddress - is an address of the token holder
 * tokenModelAddress - is an address of a token

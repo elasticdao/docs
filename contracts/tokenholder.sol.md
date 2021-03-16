@@ -18,7 +18,7 @@ struct Instance {
 ```
 
 * account - an account of the token holder
-* lambda - the total number of shares outstanding in the DAO currently
+* lambda - the base value of the Governance token 
 * ecosystem - the DAO ecosystem
 * token - token of the DAO
 

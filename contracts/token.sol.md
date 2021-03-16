@@ -29,10 +29,10 @@ The **Token** contract consists of a struct of parameters that can be set while 
 * uuid - is an address of the unique user ID
 * name - is the name of the token
 * symbol - is the symbol of the token
-* eByL - During the seeding phase, eByL is the value which determines how much shares or lambda\(λ\) a summoner gets.
+* eByL - During the seeding phase, eByL is the value which determines how many lambda\(λ\) a summoner gets.
 * elasticity - is the value by which the cost of entering the DAO increases \( on every join \)
 * k - is the constant token multiplier, it increases the number of tokens that each member of the DAO has with respect to their lambda
-* lambda - is the total number of shares outstanding in the DAO currently
+* lambda - the base value of the governance token
 * m - is a lambda modifier it's value increases every time someone joins the DAO
 * maxLambdaPurchase - is the maximum amount of lambda that can be purchased per wallet
 * numberOfTokenHolders - is an index indicating the number of token holders
@@ -60,7 +60,7 @@ struct Instance {
 * name - The name of the Token
 * symbol - The symbol of the Token
 * counter - 
-* eByL - During the seeding phase, eByL is the value which determines how much shares or lambda\(λ\) a summoner gets. 
+* eByL - During the seeding phase, eByL is the value which determines how many lambda\(λ\) a summoner gets. 
 
 
 
