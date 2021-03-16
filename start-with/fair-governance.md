@@ -4,7 +4,7 @@
 
 ElasticDAO's governance approach limits a wallet's maximum influence. All participants have the same opportunities and privileges over the DAO's future, no matter their position, the time of entry, or the value they hold.
 
-ElasticDAO launched fully decentralized and community-owned. The first voting module uses Snapshot to reach consensus while avoiding high gas fees and giving control of the organization to its shareholders. This means that any updates regarding the development of the protocol can proceed only with the majority of the shareholder's approval. 
+ElasticDAO launched fully decentralized and community-owned. The first voting module uses Snapshot to reach consensus while avoiding high gas fees and giving control of the organization to its token holders. This means that any updates regarding the development of the protocol can proceed only with the majority of the token holder's approval. 
 
 Fair governance is achieved in two ways.
 

@@ -24,12 +24,12 @@ The first DAO deployed on the Elastic DAO Protocol, is named ElasticDAO. Elastic
 Every time the join function of ElasticDAO is called, the amount of ETH backing each of its governance token \(**EGT**\) increases. All members end up with more value. The total supply flourishes and is distributed to the shareholders in the form of a proportional increase in number of **tokens** \(rebase\) and a rise in the price of the token.
 
 {% hint style="info" %}
-Mary enters ElasticDAO via the join function \(link\). The amount of EGT held by each community member increases, and the amount of ETH each EGT can be redeemed for increases by 2% \(the **elasticity** value \(link\)\).
+Mary enters ElasticDAO via the join function \(link\). The amount of EGT held by each community member increases, and the amount of ETH each EGT can be redeemed for increases by 3% \(the **elasticity** value \(link\)\).
 {% endhint %}
 
 Check out the steps to join ElasticDAO \(link\).
 
-It is also possible to buy EGT on the open market. Anyone who does so does not trigger a rebase, but has entered ElasticDAO as a member. Rebasing happens only when new tokens are minted via the join function.
+It is also possible to buy EGT on a Sushiswap AMM. Anyone who does so does not trigger a rebase, but has entered ElasticDAO as a member. Rebasing happens only when new tokens are minted via the join function.
 
 ### Work inside the DAO
 
@@ -44,6 +44,8 @@ If Maria works in a marketing campaign to promote ElasticDAO, the DAO will rewar
 ### Exit the DAO
 
 When people exit the DAO, they receive the amount of ETH backing each EGT burned. Burning EGT to redeem their value in ETH does not have a fee associated with it and can be done at any time. The value of the treasury and the total number of EGT outstanding decreases proportionally and is not associated with a negative rebase.
+
+Furthermore,  token holders have the option to sell their tokens on the Sushiswap AMM. 
 
 {% hint style="info" %}
 Maria wants to exit the DAO. She calls the exit function \(link\) and specifies how many EGT she would like to burn \(as a lambda value \(link to maths\)\). Her EGT is burned and the vault sends her its corresponding value in ETH.
