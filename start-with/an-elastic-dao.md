@@ -8,7 +8,7 @@ The Elastic DAO Protocol is a governance protocol focused on fairness. The proto
 * Rebasing
 * Fair governance
 
-At its core, Elastic DAO is an elastic governance protocol that expands supply in response to the market demand and activity. The protocol focuses on allowing DAOs deployed on it to reward active participation and penalize bad actors \(link\).
+At its core, Elastic DAO is an elastic governance protocol that expands supply in response to the market demand and activity. The protocol focuses on allowing DAOs deployed on it to reward active participation and penalize bad actors.
 
 The Elastic DAO Protocol model is based on two rules:
 
@@ -21,7 +21,7 @@ The first DAO deployed on the Elastic DAO Protocol, is named ElasticDAO. Elastic
 
 ### Entering the DAO 
 
-Every time the join function of ElasticDAO is called, the amount of ETH backing each of its governance token \(**EGT**\) increases. All members end up with more value. The total supply flourishes and is distributed to the shareholders in the form of a proportional increase in number of **tokens** \(rebase\) and a rise in the price of the token.
+Every time the join function of ElasticDAO is called, the amount of ETH backing each of its governance token \(**EGT**\) increases. All members end up with more value. The total supply flourishes and is distributed to the token holders in the form of a proportional increase in number of **tokens** \(rebase\) and a rise in the price of the token.
 
 {% hint style="info" %}
 Mary enters ElasticDAO via the join function \(link\). The amount of EGT held by each community member increases, and the amount of ETH each EGT can be redeemed for increases by 3% \(the **elasticity** value \(link\)\).

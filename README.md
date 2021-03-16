@@ -10,5 +10,5 @@ In the decentralized world, the tragedy of commons lines up with the free-rider 
 
 ElasticDAO is a governance protocol that attempts to balance the competing interests between the different participants in a decentralized ecosystem. ElasticDAO achieves this by reducing the overall influence that money and early adopters have in existing DAO governance models.
 
-We believe that aligning personal and community goals can give everyone a level playing field within the constructs of the DAO. ElasticDAO rewards behavior that strengthens the community and enables the shareholder's to take action against selfish actors, when those actions weaken the collective.
+We believe that aligning personal and community goals can give everyone a level playing field within the constructs of the DAO. ElasticDAO rewards behavior that strengthens the community and enables the token holders to take action against selfish actors, when those actions weaken the collective.
 
