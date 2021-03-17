@@ -136,9 +136,9 @@ Note that, upon every rebase `δ' > δ` i.e **the number of assets backing each 
 
 ### Graphing
 
-The numerical value of `m` , `k` , `elasticity` and ETH seeded determines the price trend and supply of the token.
+The numerical value of `m` , `k` , `elasticity` and ETH provided at summoning determines the price trend and supply of the token.
 
-There exists a logical price differentiator in the price to mint each EGT \( via the join function - triggering a rebase\) and the redemption price of each EGT \( Capital Delta\).
+There exists a logical range between the assets required to mint each EGT \(via the join function - triggering a rebase\) and the assets received for each EGT during redemption \(a call to the exit function\).
 
 For a given set of values of  `m`, `elasticity`, `k` the trend is given by:
 
