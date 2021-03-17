@@ -232,7 +232,7 @@ Allows a prospective or current member to join the DAO by minting lambda with ET
 Emits the [JoinDAO](https://docs.elasticdao.org/contracts/elasticdao.sol#joindao) event.
 
 ```text
-function join(uint256 _deltaLambda)
+function join()
   external
   payable
   onlyAfterSummoning
