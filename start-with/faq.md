@@ -34,9 +34,9 @@ The DAO is open to everyone who wants to contribute and provide expertise on a t
 
 ElasticDAO is 100% bootstrapped and will be community-owned from day1.
 
-### How ElasticDAO prevents Sybil attacks?
+### How does ElasticDAO prevent Sybil attacks?
 
-Even tho it is not impossible for someone to make multiple accounts, ElasticDAO's join curve makes sybil attacks very expensive. When people join, they cannot purchase more than a DAO configured maximum number of tokens. The more addresses join the DAO, the more expensive it becomes. The net effect of a sybil attack would be enrichment of the existing DAO members. In an extreme case, those members could just leave and found a new DAO with the attacker's money.
+Even though it is not impossible for someone to make multiple accounts, ElasticDAO's join curve makes sybil attacks very expensive. When people join, they cannot purchase more than the DAO configured maximum number of tokens. The more addresses join the DAO, the more expensive it becomes. The net effect of a sybil attack would be enrichment of the existing DAO members. In an extreme case, those members could just leave and found a new DAO with the attacker's money.
 
 
 
