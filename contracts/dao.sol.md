@@ -26,16 +26,16 @@ struct Instance {
 
 ### List of events:
 
-* [Serialized](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/dao.sol#serialized)
+* [Serialized](https://docs.elasticdao.org/contracts/dao.sol#serialized)
 
 ### List of functions:
 
-* [deserialize](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/dao.sol#deserialize)
-* [exists](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/dao.sol#exists)
-* [getSummoner](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/dao.sol#getsummoner)
-* [isSummoner](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/dao.sol#issummoner)
-* [serialize](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/dao.sol#serialize)
-* [\_exists](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/dao.sol#_exists)
+* [deserialize](https://docs.elasticdao.org/contracts/dao.sol#deserialize)
+* [exists](https://docs.elasticdao.org/contracts/dao.sol#exists)
+* [getSummoner](https://docs.elasticdao.org/contracts/dao.sol#getsummoner)
+* [isSummoner](https://docs.elasticdao.org/contracts/dao.sol#issummoner)
+* [serialize](https://docs.elasticdao.org/contracts/dao.sol#serialize)
+* [\_exists](https://docs.elasticdao.org/contracts/dao.sol#_exists)
 
 ## Events
 
