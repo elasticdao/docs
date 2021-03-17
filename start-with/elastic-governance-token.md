@@ -12,7 +12,7 @@ For the sake of eliminating confusion, the remainder of this section will talk a
 
  
 
-`TLDR`: The overall supply of ElasticGovernance tokens and their value goes up every time a rebase happens.
+`TLDR`: The overall supply of EGT and the amount of assets backing each EGT increase every time a rebase happens.
 
 
 
