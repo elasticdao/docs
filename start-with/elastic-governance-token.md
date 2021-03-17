@@ -65,7 +65,7 @@ Capital Delta \( **δ \)** and Tokens \(t\) are functions on ElasticMath.sol.
 function join(uint256 _deltaLambda)
 ```
 
-The amount of ETH required to purchase _**deltaLambda**_ amounts of lambda accounts for the increase in the value of each EGT and the increase in the number of EGT for all existing token holders. \(math explained below\).
+The amount of ETH required to mint _**deltaLambda**_ accounts for the increase in the value of each EGT. The increase in _**m**_ value provides the increase in number of EGT for all existing token holders. \(math explained below\).
 
 {% hint style="info" %}
 The Dash notation, e.g  t' and m',  etc,  represents the state after the rebase, which then becomes the value for the next rebase.
@@ -78,7 +78,7 @@ For the next rebase,
 t = 110 \( so on and so forth \)
 {% endhint %}
 
-The amount of ETH required to purchase deltaLambda amount of Lambda \( **ΔE** \) is given by:
+The amount of ETH required to purchase deltaLambda \( **ΔE** \) is given by:
 
 $$
 ΔE = δ * k *(  λ'* m'*  ( 1 + elasticity ) - λ * m )
@@ -90,7 +90,7 @@ $$
 * λ - The amount of Lambda before the rebase.
 * m' - The value of the Lambda modifier after the rebase.
 * m - The value of the Lambda modifier before the rebase.
-* elasticity - Increase in the price of each EGT. \( Initially set by the DAO \)
+* elasticity - Increase in the number of assets backing each EGT.
 
  ‌
 
@@ -110,7 +110,7 @@ $$
 * λ - Number of Lambda before the join
 * Δλ - DeltaLambda - The Amount of Lambda minted
 
-resulting in  the new supply of tokens being,
+resulting in the new supply of tokens being,
 
 $$
 t' = λ' *m'*k
@@ -130,7 +130,7 @@ $$
 δ' = e' / t'
 $$
 
-Note that, upon every rebase `δ' > δ` i.e **the asset value of each EGT has gone up.**
+Note that, upon every rebase `δ' > δ` i.e **the number of assets backing each EGT has gone up.**
 
 ‌
 
