@@ -5,9 +5,9 @@
 ElasticGovernanceToken \(EGT\) is a positively rebasing asset-backed governance token.
 
 {% hint style="info" %}
-Just as the first DAO deployed on the Elastic DAO Protocol is named ElasticDAO. ElasticGovernanceToken \(EGT\) is the first Elastic Governance Token and will be used for governance in ElasticDAO.
+Just as the first DAO deployed on the Elastic DAO Protocol is named ElasticDAO, Elastic Governance \(EGT\) is the first Elastic Governance Token and will be used for governing ElasticDAO.
 
-For the sake of eliminating confusion, the remainder of this section will talk about the characteristics, formulae, rebasing dynamics of ElasticGovernanceToken \(EGT\). All dynamics discussed apply to any Elastic Governance Token of a DAO deployed via the Elastic DAO Protocol.
+For the sake of eliminating confusion, the remainder of this section will talk about the characteristics, formulae, and rebasing dynamics of Elastic Governance \(EGT\). All dynamics discussed apply to any Elastic Governance Token of a DAO deployed via the Elastic DAO Protocol.
 {% endhint %}
 
  
