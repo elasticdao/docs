@@ -45,7 +45,7 @@ Before a proposal can pass, at least 50% of eligible EGT must vote. A proposal w
 
 ### Rewards
 
-The individuals who vote, get rewarded regardless of their vote. There are three possible ways to vote your EGT, as a way to increase member participation. In each vote proposal, people can vote to approve a proposal, choose to abstain, or can vote to deny a proposal. A shareholder would choose to abstain because they are agnostic about a proposal or because they lack the in-depth knowledge needed to formulate a position. Rewards are granted regardless of the outcome of a proposal, including in cases where the proposal fails to reach quorum.
+The individuals who vote, get rewarded regardless of their vote. There are three possible ways to vote your EGT, as a way to increase member participation. In each vote proposal, people can vote to approve a proposal, choose to abstain, or can vote to deny a proposal. A member might choose to abstain because they are agnostic about a proposal or because they lack the in-depth knowledge needed to formulate a position. Rewards are granted regardless of the outcome of a proposal, including in cases where the proposal fails to reach quorum.
 
 The participants get rewarded based on the number of EGT they vote with. The reward variable is set by the DAO and is currently 5%. This is subject to change via proposal. Taken in combination with the maximum voting power, this dynamic helps to increase the relative voting power of smaller EGT holders.
 
