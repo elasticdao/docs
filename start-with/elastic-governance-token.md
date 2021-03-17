@@ -18,15 +18,15 @@ For the sake of eliminating confusion, the remainder of this section will talk a
 
 ### Characteristics
 
-`m:` Lambda modifier - its value increases every time someone joins the DAO \(triggers a rebase\).
+`m:` Lambda modifier - the base value of EGT; increases every time someone joins the DAO. Decreases every time someone exits the DAO.
 
-`elasticity:` The value by which the cost of entering the DAO increases every time someone joins the DAO \(triggers a rebase\).
+`elasticity:` The percentage increase in backing assets every time a rebase is triggered.
 
-`k:` Token multiplier - it increases the number of tokens that each member of the DAO has with respect to their lambda.
+`k:` Token multiplier; increases the number of EGT that each base unit \(lambda\) represents.
 
 ### Formulae
 
-‌The redemption value of each ElasticGovernanceToken is given by Capital Delta\(δ\),  which is calculated by:
+‌The redemption value of each EGT is given by Capital Delta\(δ\),  which is calculated by:
 
 **Capital Delta \(δ\):**
 
@@ -34,8 +34,8 @@ $$
 δ =  e /t
 $$
 
-*  e - The total amount of ETH
-*  t - The total number of tokens minted
+*  e - The total amount of backing assets in the DAO's vault \(ETH\)
+*  t - The total supply of EGT
 
 
 
