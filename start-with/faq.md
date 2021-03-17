@@ -16,7 +16,7 @@ The protocol's target audience is individuals who want to contribute to fair gov
 
 ### Can you explain ElasticDAO in simple words?
 
-ElasticDAO aims to reduce the influence that money has on the current DAO models. The protocol provides a level play landscape balancing the competing interest between the different shareholders. Even if you join the DAO with a small number of tokens and are active, your participation will be rewarded each time until you reach the maximum voting power. Core team, whales, small contributors, all eventually have an equal say in the future plans of the DAO. 
+ElasticDAO aims to reduce the influence that money has on the current DAO models. The protocol provides a level play landscape balancing the competing interests of different stakeholders. Even if you join the DAO with a small number of tokens and are active, your participation will be rewarded each time until you reach the maximum voting power. Core team, whales, small contributors, all eventually have an equal say in the future plans of the DAO. 
 
 Also, every time that someone joins the DAO directly by minting, all members wind up with more tokens via rebasing.
 
