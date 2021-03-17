@@ -18,7 +18,9 @@ For the sake of eliminating confusion, the remainder of this section will talk a
 
 ### Characteristics
 
-`m:` Lambda modifier - the base value of EGT; increases every time someone joins the DAO. Decreases every time someone exits the DAO.
+`lambda` The base value of EGT; increases every time someone joins the DAO. Decreases every time someone exits the DAO.
+
+`m:` Lambda modifier - the rebasing modifier ; increases every time someone joins the DAO and is the technical driver behind the rebasing mechanism
 
 `elasticity:` The percentage increase in backing assets every time a rebase is triggered.
 
@@ -39,7 +41,7 @@ $$
 
 
 
-The total supply of tokens \(t\) is given by:
+The total supply of EGT \(t\) is given by:
 
 **Tokens \(t\):**
 
