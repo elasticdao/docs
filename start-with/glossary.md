@@ -6,7 +6,7 @@
 {% tab title="DAO Glossary" %}
 ## DeFi
 
-DeFi \(decentralized finance\) is the creation of an ecosystem of financial tools built on blockchain. Also known as open finance, DeFi apps take traditional financial services and rebuild them as open and permissionless.
+DeFi \(Decentralized Finance\) is the creation of an ecosystem of financial tools built on blockchain. Also known as open finance, DeFi apps take traditional financial services and rebuild them as open and permissionless.
 
 ## DAO
 
@@ -24,11 +24,11 @@ A Blockchain wallet is a secure software program that basically allows users to 
 
 ## Total Supply
 
-The total amount of EGT in existence right now, minus any EGT that have been verifiably burned. 
+The total amount of EGT in existence right now, minus any EGT that has been verifiably burned. 
 
 ## Minting
 
-A process where blocks are added to a blockchain, verifying transactions. It is also the process through which new EGT are created.
+A process where blocks are added to a blockchain, verifying transactions. It is also the process through which new EGT is created.
 
 ## Token
 
@@ -56,7 +56,7 @@ When a participant is positive about a proposal, they approve it by voting yes.
 
 ## Deny
 
-When a participant disagrees on a proposal, he denies it.
+When a participant disagrees with a proposal, he denies it.
 
 ## Abstain
 
@@ -84,6 +84,8 @@ The off-chain governance system has 2 main differences from the on-chain governa
 Layer 2 is a set of technologies or systems that run on top of Ethereum \(Layer 1\), inherit security properties from Layer 1, and provide greater transaction processing capacity \(throughput\), lower transaction fees \(operating cost\), and faster transaction confirmations than Layer 1.
 
 ## Multisig
+
+Multisig is the shortened name for multi-signature,  this kind of wallet requires one or more signatures to sign a transaction. A multisig wallet is a wallet shared by two or more users. 
 {% endtab %}
 
 {% tab title="Conceptual Glossary" %}
@@ -95,15 +97,11 @@ Free riders consider being a part of the ecosystem to consume more than their fa
 
 Its supply determines the token price. The more tokens that have been distributed, the higher the price. Therefore, the more people entering the DAO, the more EGT tokens are distributed. This leads to a rise in the token price.
 
-![](../.gitbook/assets/0_o0yrts3zulr6hrty.png)
-
-### 
-
 ## Rebase
 
 A general increase/decrease in everybody's value when a new member enters the DAO. 
 
-In ElasticDAO, there is only a positive rebase. The rebase is happening only when a new member joins the DAO directly from the website.
+In ElasticDAO, there is only a positive rebase. The rebase happens only when a new member joins the DAO directly from the website.
 
 ## Fair governance
 
@@ -131,9 +129,9 @@ When a proposal doesn't reach the quorum, the community can vote to penalize the
 
 ## Voting Modules
 
-## Deploy
+## Deploy \(DAO\)
 
-The creation of a DAO.
+The creation of a DAO on the Elastic DAO platform.
 {% endtab %}
 
 {% tab title="Technical Glossary" %}
