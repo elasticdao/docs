@@ -14,35 +14,35 @@ Bootstrapped and Community-owned since day1
 
 ### List of events:
 
-* [Approval](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/elasticgovernancetoken.sol#approval)
-* [Transfer](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/elasticgovernancetoken.sol#transfer)
+* [Approval](https://docs.elasticdao.org/contracts/elasticgovernancetoken.sol#approval)
+* [Transfer](https://docs.elasticdao.org/contracts/elasticgovernancetoken.sol#transfer)
 
 ### List of functions:
 
-* [allowance](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/elasticgovernancetoken.sol#allowance)
-* [approve](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/elasticgovernancetoken.sol#approve)
-* [balanceOf](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/elasticgovernancetoken.sol#balanceof)
-* [balanceOfInShares](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/elasticgovernancetoken.sol#balanceofinshares)
-* [balanceOfAt](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/elasticgovernancetoken.sol#balanceofat)
-* [balanceOfInSharesAt](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/elasticgovernancetoken.sol#balanceofinsharesat)
-* [burn](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/elasticgovernancetoken.sol#burn)
-* [burnShares](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/elasticgovernancetoken.sol#burnshares)
-* [decimals](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/elasticgovernancetoken.sol#decimals)
-* [decreaseAllowance](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/elasticgovernancetoken.sol#decreaseallowance)
-* [increaseAllowance](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/elasticgovernancetoken.sol#increaseallowance)
-* [mint](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/elasticgovernancetoken.sol#mint)
-* [mintShares](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/elasticgovernancetoken.sol#mintshares)
-* [name](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/elasticgovernancetoken.sol#name)
-* [numberOfTokenHolders](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/elasticgovernancetoken.sol#numberoftokenholders)
-* [symbol](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/elasticgovernancetoken.sol#symbol)
-* [totalSupply](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/elasticgovernancetoken.sol#totalsupply)
-* [totalSupplyInShares](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/elasticgovernancetoken.sol#totalsupplyshares)
-* [transfer](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/elasticgovernancetoken.sol#transfer)
-* [transferFrom](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/elasticgovernancetoken.sol#transferfrom)
+* [allowance](https://docs.elasticdao.org/contracts/elasticgovernancetoken.sol#allowance)
+* [approve](https://docs.elasticdao.org/contracts/elasticgovernancetoken.sol#approve)
+* [balanceOf](https://docs.elasticdao.org/contracts/elasticgovernancetoken.sol#balanceof)
+* [balanceOfInShares](https://docs.elasticdao.org/contracts/elasticgovernancetoken.sol#balanceofinshares)
+* [balanceOfAt](https://docs.elasticdao.org/contracts/elasticgovernancetoken.sol#balanceofat)
+* [balanceOfInSharesAt](https://docs.elasticdao.org/contracts/elasticgovernancetoken.sol#balanceofinsharesat)
+* [burn](https://docs.elasticdao.org/contracts/elasticgovernancetoken.sol#burn)
+* [burnShares](https://docs.elasticdao.org/contracts/elasticgovernancetoken.sol#burnshares)
+* [decimals](https://docs.elasticdao.org/contracts/elasticgovernancetoken.sol#decimals)
+* [decreaseAllowance](https://docs.elasticdao.org/contracts/elasticgovernancetoken.sol#decreaseallowance)
+* [increaseAllowance](https://docs.elasticdao.org/contracts/elasticgovernancetoken.sol#increaseallowance)
+* [mint](https://docs.elasticdao.org/contracts/elasticgovernancetoken.sol#mint)
+* [mintShares](https://docs.elasticdao.org/contracts/elasticgovernancetoken.sol#mintshares)
+* [name](https://docs.elasticdao.org/contracts/elasticgovernancetoken.sol#name)
+* [numberOfTokenHolders](https://docs.elasticdao.org/contracts/elasticgovernancetoken.sol#numberoftokenholders)
+* [symbol](https://docs.elasticdao.org/contracts/elasticgovernancetoken.sol#symbol)
+* [totalSupply](https://docs.elasticdao.org/contracts/elasticgovernancetoken.sol#totalsupply)
+* [totalSupplyInShares](https://docs.elasticdao.org/contracts/elasticgovernancetoken.sol#totalsupplyinshares)
+* [transfer](https://docs.elasticdao.org/contracts/elasticgovernancetoken.sol#transfer-1)
+* [transferFrom](https://docs.elasticdao.org/contracts/elasticgovernancetoken.sol#transferfrom)
 
 ### List of modifiers:
 
-* [onlyDAO](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/elasticgovernancetoken.sol#onlydao)
+* [onlyDAO](https://docs.elasticdao.org/contracts/elasticgovernancetoken.sol#onlydao)
 
 
 

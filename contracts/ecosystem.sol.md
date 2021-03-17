@@ -28,14 +28,14 @@ struct Instance {
 
 ### List of events:
 
-* [Serialized](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/ecosystem.sol#serialized)
+* [Serialized](https://docs.elasticdao.org/contracts/ecosystem.sol#serialized)
 
 ### List of functions:
 
-* [deserialize](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/ecosystem.sol#derialize)
-* [exists](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/ecosystem.sol#exists)
-* [serialize](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/ecosystem.sol#serialize)
-* [\_exists](https://app.gitbook.com/@elasticdao/s/docs/~/drafts/-MUUNkCuPjp2572zw0OD/contracts/ecosystem.sol#_exists)
+* [deserialize](https://docs.elasticdao.org/contracts/ecosystem.sol#deserialize)
+* [exists](https://docs.elasticdao.org/contracts/ecosystem.sol#exists)
+* [serialize](https://docs.elasticdao.org/contracts/ecosystem.sol#serialize)
+* [\_exists](https://docs.elasticdao.org/contracts/ecosystem.sol#_exists)
 
 ## Events
 
