@@ -35,8 +35,6 @@ Nicolas has 500 EGT. He can vote with all of his EGT. As his EGT balance grows, 
 
 Any wallet holding EGT in an amount which meets or exceeds the maximum voting power can create new proposals via the snapshot module. In our example above, Mary would be able to create a proposal, whereas Nicholas would not.
 
-\(Maybe a PHOTO\)
-
 ## Process 
 
 ### Quorum
