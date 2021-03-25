@@ -13,7 +13,7 @@ Fair governance is achieved in two ways.
 
 ### Voting Mechanism
 
-ElasticDAO is controlled by EGT token holders who submit and vote on proposals to govern the ecosystem. As of today, the voting happens via a module integrated with snapshot, a popular off-chain voting solution. The votes are then ratified by a 9 member multisig.
+ElasticDAO is controlled by EGT token holders who submit and vote on proposals to govern the ecosystem. As of today, the voting happens via a module integrated with snapshot, a popular off-chain voting solution. The votes are then ratified by a 9 member multisig, located at elasticmultisig.eth.
 
 {% hint style="info" %}
 Snapshot has emerged as a popular solution driven by high gas costs. The original ElasticDAO voting modules were entirely on chain, resulting in a roughly $150 cost of casting a vote. A top priority of the core team is to develop additional voting modules on layer 2.
