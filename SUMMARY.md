@@ -28,3 +28,7 @@
 * [Token.sol](contracts/token.sol.md)
 * [TokenHolder.sol](contracts/tokenholder.sol.md)
 
+---
+
+* [Addresses](addresses.md)
+
