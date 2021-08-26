@@ -14,6 +14,7 @@
 ## Guides
 
 * [Enter the DAO](guides/enter-the-dao.md)
+* [Exit the DAO](guides/exit-the-dao.md)
 * [Proposals](guides/proposals.md)
 * [Vote](guides/vote.md)
 
