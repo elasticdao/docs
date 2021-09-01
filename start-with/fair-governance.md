@@ -4,19 +4,21 @@
 
 ElasticDAO's governance approach limits a wallet's maximum influence. All participants have the same opportunities and privileges over the DAO's future, no matter their position, the time of entry, or the value they hold.
 
-ElasticDAO launched fully decentralized and community-owned. The first voting module uses Snapshot to reach consensus while avoiding high gas fees and giving control of the organization to its token holders. This means that any updates regarding the development of the protocol can proceed only with the majority of the token holder's approval. 
+ElasticDAO launched fully decentralized and community-owned. The first voting module used Snapshot to reach consensus while avoiding high gas fees and giving control of the organization to its token holders. Snapshot has been now replaced by the ElasticVote module. This means that any updates regarding the development of the protocol can proceed only with the majority of the token holder's approval. 
 
 Fair governance is achieved in two ways.
 
-1. There is a limited governance power; and
+1. There is a limited governance power
 2. a rewarding/penalizing model to encourage participants to vote.
 
 ### Voting Mechanism
 
-ElasticDAO is controlled by EGT token holders who submit and vote on proposals to govern the ecosystem. As of today, the voting happens via a module integrated with snapshot, a popular off-chain voting solution. The votes are then ratified by a 9 member multisig, located at elasticmultisig.eth.
+ElasticDAO is controlled by EGT token holders who submit and vote on proposals to govern the ecosystem. As of today\(V2 of the ElasticDAO app\), the voting happens via the ElasticVote module which works similarly to how Snapshot worked. The votes are then ratified by a 9 member multisig, located at [elasticmultisig.eth](https://etherscan.io/address/0x8c2251e028043e38f58ac64c00e1f940d305aa62).
 
 {% hint style="info" %}
-Snapshot has emerged as a popular solution driven by high gas costs. The original ElasticDAO voting modules were entirely on chain, resulting in a roughly $150 cost of casting a vote. A top priority of the core team is to develop additional voting modules on layer 2.
+Snapshot had emerged as a popular solution driven by high gas costs. The original ElasticDAO voting modules were entirely on chain, resulting in roughly $150 to cast a vote. 
+
+Since the launch, as part of V2, the core dev team has developed the ElasticVote module, which has now replaced Snapshot completely.
 {% endhint %}
 
 ### Maximum voting power
@@ -33,13 +35,13 @@ Nicolas has 500 EGT. He can vote with all of his EGT. As his EGT balance grows, 
 
 ### Whitelist
 
-Any wallet holding EGT in an amount which meets or exceeds the maximum voting power can create new proposals via the snapshot module. In our example above, Mary would be able to create a proposal, whereas Nicholas would not.
+Any wallet holding EGT in an amount that meets or exceeds the maximum voting power can create new proposals via the ElasticVote module. In our example above, Mary would be able to create a proposal, whereas Nicholas would not.
 
 ## Process 
 
 ### Quorum
 
-Before a proposal can pass, at least 50% of eligible EGT must vote. A proposal which has reached quorum is considered to have passed if 60% or more of the voting EGT votes to approve it. Both of these values are subject to change by proposal.
+Before a proposal can pass, at least 50% of eligible EGT must vote. A proposal that has reached quorum is considered to have passed if 60% or more of the voting EGT votes to approve it. Both of these values are subject to change by a proposal.
 
 ### Rewards
 
